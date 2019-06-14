@@ -38,7 +38,7 @@ var generateHtml = function (lang, json, html) {
         }
         if (value) {
             if (typeof value == 'object') {
-                value = value.join(',');
+                value = '"' + value.join('", "') + '"';
             }
             html = html.replace(keyString, value);
         }

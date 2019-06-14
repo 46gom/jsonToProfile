@@ -13,7 +13,11 @@
         <meta property="og:description" content="{webPageConfig.og.description}">
     </head>
     <body>
-            <h3>{name.kor}</h3>
+            <div style="position: absolute; top: 0px; left: 0px; padding: 20px 20px; width: 100%; text-align: right;">
+                <img src="data:image/svg+xml;base64,{photo}"
+                    style='width: 30%; opacity: 0.5;' />
+            </div>
+            <h2>{name.kor}</h2>
             <h4>{name.eng} / {name.chn}</h4>
             <h5>이메일: {contact.email}</h5>
             <h5>연락처: {contact.mobile}</h5>
@@ -22,7 +26,7 @@
             <p>{summary.skillCategories}</p>
             <p>{summary.skills}</p>
             <p>총 경력: {careerDuration}년</p>
-            <hr />
+            <hr style='border: 1px solid rgb(87, 86, 86);' />
             <p>&nbsp;</p>            
     </body>
 </html>
