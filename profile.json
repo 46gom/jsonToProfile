@@ -1,138 +1,157 @@
 {
-     "name": {
-         "kor": "김정환",
-         "eng": "KIM JUNG HWAN",
-         "chn": "金靜煥"
-     },
-     "birthday": {
-        "year": 1982,
-        "month": 3,
-        "day": 7
-     },
-     "contact": {
-        "mobile": "+82-10-7355-0920",
-        "email": "vitokim@naver.com"
-     },
-     "summary": {
-        "careerStartAt": {
-            "year": 2008,
-            "month": 10
-         },
-         "workCategories": {
-            "kor": [
-                "e커머스",
-                "카드 인증/결제"
-             ],
-             "eng": [
-                "e-Commerce",
-                "Payment"
-             ]
-         },
-         "skillCategories": {
-            "kor": [
-                "백엔드 서버개발",
-                "프론트엔드 전시개발",
-                "모바일 서비스 개발"
-            ],
-            "eng": [
-                "Back-End Development",
-                "Front-End Development",
-                "Mobile Service Development"
-            ]
-        },
-        "skills": {
-            "kor": [
-                "JAVA",
-                "JAVASCRIPT",
-                "JQUERY",
-                "HTML",
-                "CSS",
-                "TYPESCRIPT",
-                "REACT",
-                "SHELLSCRIPT",
-                "ORACLE DB",
-                "MYSQL DB"
-            ],
-            "eng": [
-                "JAVA",
-                "JAVASCRIPT",
-                "JQUERY",
-                "HTML",
-                "CSS",
-                "TYPESCRIPT",
-                "REACT",
-                "SHELLSCRIPT",
-                "ORACLE DB",
-                "MYSQL DB"
-            ],
-        },
-        "strength": {
-            "kor": [
-                "풀스택 개발",
-                "빅데이터 경험",
-                "대량의 트래픽 처리 경험"
-             ],
-             "eng": [
-                "Full-Stack Dev.",
-                "Big Data experience",
-                "Masive traffic experience"
-             ]
-         }
-     },
-     "career": {
-        "kor": [
-             {
-                "company": "CJ올리브네트웍스 올리브영 부문",
-                "team": "정보전략팀",
-                "position": "부장",
-                "term": {
-                    "inOffice": true,
-                    "start": {
-                        "year": 2019,
-                        "month": 4
-                    },
-                    "end": {}
-                },
-                "summary": {
-                    "task": "개발",
-                    "projects": [
-                        "매장 태블릿 앱 개발",
-                        "큐레이션 내재화"
-                    ]
+    "name": {
+        "kor": "김정환",
+        "eng": "KIM JUNG HWAN",
+        "chn": "金靜煥"
+    },
+    "photo": "./images/vitokim.svg",
+    "birthday": {
+       "year": 1982,
+       "month": 3,
+       "day": 7
+    },
+    "contact": {
+       "mobile": "+82-10-7355-0920",
+       "email": "vitokim@naver.com"
+    },
+    "careerStartAt": {
+        "year": 2008,
+        "month": 10
+    },
+    "detail": {
+        "korean": {
+            "webPageConfig": {
+                "description": "",
+                "og": {
+                    "title": "",
+                    "url": "",
+                    "image": "",
+                    "description": ""
                 }
-             },
-            {
-                "company": "네이버",
-                "team": "네이버 쇼핑 개발",
-                "position": "개발자(차장, 개발리더)",
-                "term": {
-                    "inOffice": false,
-                    "start": {
-                        "year": 2011,
-                        "month": 8
+            },
+            "summary": {
+                "workCategories": [
+                    "e커머스",
+                    "카드 인증/결제"
+                ],
+                "skillCategories": [
+                    "백엔드 서버개발",
+                    "프론트엔드 전시개발",
+                    "모바일 서비스 개발"
+                ],
+                "skills": [
+                    "JAVA",
+                    "JAVASCRIPT",
+                    "JQUERY",
+                    "HTML",
+                    "CSS",
+                    "TYPESCRIPT",
+                    "REACT",
+                    "SHELLSCRIPT",
+                    "ORACLE DB",
+                    "MYSQL DB"
+                ],
+                "strength": [
+                    "풀스택 개발",
+                    "빅데이터 경험",
+                    "대량의 트래픽 처리 경험"
+                ]
+            },
+            "career":  [
+                {
+                    "company": "CJ올리브네트웍스 올리브영 부문",
+                    "team": "정보전략팀",
+                    "position": "부장",
+                    "term": {
+                        "inOffice": true,
+                        "start": {
+                            "year": 2019,
+                            "month": 4
+                        },
+                        "end": {}
                     },
-                    "end": {
-                        "year": 2019,
-                        "month": 4
+                    "summary": {
+                        "task": "개발",
+                        "projects": [
+                            "매장 태블릿 앱 개발",
+                            "큐레이션 내재화"
+                        ]
                     }
                 },
-                "summary": {
-                    "task": "전시 서비스 개발",
-                    "projects": [
-                        "네이버 쇼핑 홈",
-                        "핫딜-럭키투데이",
-                        "기획전",
-                        "선물",
-                        "AiTEMS",
-                        "네이버 메인 - 쇼핑판 관리툴",
-                        "쇼핑 윈도우 시스템 개편",
-                        "플레이 윈도우",
-                        "스마트에디터 2.0",
-                        "스마트 스토어"
-                    ]
+                {
+                    "company": "네이버",
+                    "team": "네이버 쇼핑 개발",
+                    "position": "개발자(차장, 개발리더)",
+                    "term": {
+                        "inOffice": false,
+                        "start": {
+                            "year": 2011,
+                            "month": 8
+                        },
+                        "end": {
+                            "year": 2019,
+                            "month": 4
+                        }
+                    },
+                    "summary": {
+                        "task": "전시 서비스 개발",
+                        "projects": [
+                            "네이버 쇼핑 홈",
+                            "핫딜-럭키투데이",
+                            "기획전",
+                            "선물",
+                            "AiTEMS",
+                            "네이버 메인 - 쇼핑판 관리툴",
+                            "쇼핑 윈도우 시스템 개편",
+                            "플레이 윈도우",
+                            "스마트에디터 2.0",
+                            "스마트 스토어"
+                        ]
+                    }
                 }
-            }
-        ],
-        "eng": []
+            ]
+        },
+        "english": {
+            "webPageConfig": {
+                "description": "",
+                "og": {
+                    "title": "",
+                    "url": "",
+                    "image": "",
+                    "description": ""
+                }
+            },
+            "summary": {
+                "workCategories": [
+                    "e-Commerce",
+                    "Payment"
+                ],
+                "skillCategories": [
+                    "Back-End Development",
+                    "Front-End Development",
+                    "Mobile Service Development"
+                ],
+                "skills": [
+                    "JAVA",
+                    "JAVASCRIPT",
+                    "JQUERY",
+                    "HTML",
+                    "CSS",
+                    "TYPESCRIPT",
+                    "REACT",
+                    "SHELLSCRIPT",
+                    "ORACLE DB",
+                    "MYSQL DB"
+                ],
+                "strength": [
+                    "Full-Stack Dev.",
+                    "Big Data experience",
+                    "Masive traffic experience"
+                ]
+            },
+            "career": [
+
+            ]
+        }
     }
 }
